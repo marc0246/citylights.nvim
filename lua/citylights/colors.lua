@@ -14,10 +14,14 @@ return {
   yellow = "#ebbf83",
   blue = "#5ec4ff",
   violet = "#68a1f0",
-  cyan = "#70e1e8",
-  teal = "#33ced8",
+  bright_cyan = "#70e1e8",
+  cyan = "#33ced8",
+  dark_cyan = "#008b94",
 
-  red_dim = "#5c2a31",
-  green_dim = "#204729",
-  blue_dim = "#26506d",
+  dim_red = "#5c2a31",
+  dim_green = "#204729",
+  dim_blue = "#26506d",
+
+  error = "#d95468",
+  warn = "#d98e48",
 }
