@@ -100,6 +100,7 @@ local highlights = {
   ["@punctuation.delimiter"] = { fg = c.blue },
   ["@repeat"] = { fg = c.blue },
   ["@storageclass"] = { fg = c.dark_cyan },
+  ["@storageclass.lifetime"] = { fg = c.cyan },
   ["@string"] = { fg = c.violet },
   ["@string.escape"] = { fg = c.red },
   ["@string.regex"] = { fg = c.violet },
