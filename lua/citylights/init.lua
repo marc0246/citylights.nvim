@@ -61,7 +61,7 @@ local highlights = {
   Visual = { bg = c.gray20 },
   VisualNOS = { bg = c.gray20 },
   WarningMsg = { fg = c.warn },
-  Whitespace = { fg = c.gray32 },
+  Whitespace = { fg = c.gray20 },
   WildMenu = { bg = c.gray20 },
 
   Bold = { bold = true },
@@ -142,6 +142,9 @@ local highlights = {
   ["@type.qualifier"] = { fg = c.dark_cyan },
   ["@variable"] = { fg = c.gray77 },
   ["@variable.builtin"] = { fg = c.red },
+
+  IndentBlanklineChar = { fg = c.gray20 },
+  IndentBlanklineContextChar = { fg = c.gray26 },
 }
 
 if vim.g.colors_name then
