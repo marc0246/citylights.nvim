@@ -17,8 +17,6 @@ local highlights = {
   DiffDelete = { bg = c.dim_red },
   DiffText = {},
   EndOfBuffer = { fg = c.gray14 },
-  TermCursor = {},
-  TermCursorNC = {},
   ErrorMsg = { fg = c.error },
   VertSplit = { fg = c.gray11 },
   WinSeparator = { fg = c.gray11 },
