@@ -143,6 +143,10 @@ local highlights = {
   ["@variable"] = { fg = c.gray77 },
   ["@variable.builtin"] = { fg = c.red },
 
+  GitSignsAdd = { fg = c.green },
+  GitSignsChange = { fg = c.dim_blue },
+  GitSignsDelete = { fg = c.red },
+
   IndentBlanklineChar = { fg = c.gray20 },
   IndentBlanklineContextChar = { fg = c.gray26 },
 }
