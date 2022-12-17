@@ -144,17 +144,17 @@ local highlights = {
   ["@variable.builtin"] = { fg = c.red },
 
   DiagnosticError = { fg = c.error },
-  DiagnosticHint = { fg = c.dim_blue },
+  DiagnosticHint = { fg = c.hint },
   DiagnosticInfo = { fg = c.gray77 },
   DiagnosticWarn = { fg = c.warn },
 
   DiagnosticUnderlineError = { sp = c.error, undercurl = true },
-  DiagnosticUnderlineHint = { sp = c.dim_blue, undercurl = true },
+  DiagnosticUnderlineHint = { sp = c.hint, undercurl = true },
   DiagnosticUnderlineInfo = { sp = c.gray77, undercurl = true },
   DiagnosticUnderlineWarn = { sp = c.warn, undercurl = true },
 
   GitSignsAdd = { fg = c.green },
-  GitSignsChange = { fg = c.dim_blue },
+  GitSignsChange = { fg = c.violet },
   GitSignsDelete = { fg = c.red },
 
   IndentBlanklineChar = { fg = c.gray20 },
@@ -175,7 +175,7 @@ local highlights = {
   NvimTreeImageFile = { fg = c.gray53 },
   NvimTreeIndentMarker = { fg = c.gray17 },
   NvimTreeLspDiagnosticsError = { fg = c.error },
-  NvimTreeLspDiagnosticsHint = { fg = c.dim_blue },
+  NvimTreeLspDiagnosticsHint = { fg = c.hint },
   NvimTreeLspDiagnosticsInformation = { fg = c.gray77 },
   NvimTreeLspDiagnosticsWarning = { fg = c.warn },
   NvimTreeNormal = { fg = c.gray53, bg = c.gray11 },

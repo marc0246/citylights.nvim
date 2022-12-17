@@ -24,4 +24,5 @@ return {
 
   error = "#d95468",
   warn = "#d98e48",
+  hint = "#539afc",
 }
