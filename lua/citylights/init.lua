@@ -152,6 +152,7 @@ local highlights = {
 
   NvimTreeCursorLine = { bg = c.gray17 },
   NvimTreeEmptyFolderName = { fg = c.gray53 },
+  NvimTreeEndOfBuffer = { fg = c.gray11 },
   NvimTreeExecFile = { fg = c.gray53 },
   NvimTreeFileIcon = { fg = c.gray77 },
   NvimTreeFolderIcon = { fg = c.gray77 },
