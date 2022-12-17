@@ -70,7 +70,7 @@ local highlights = {
   Delimiter = { fg = c.blue },
   Error = { fg = c.error },
   Function = { fg = c.bright_cyan },
-  Identifier = { fg = c.gray77 },
+  Identifier = { fg = c.gray53 },
   Include = { fg = c.blue },
   Italic = {},
   Keyword = { fg = c.blue },
@@ -140,7 +140,7 @@ local highlights = {
   ["@type"] = { fg = c.cyan },
   ["@type.definition"] = { fg = c.cyan },
   ["@type.qualifier"] = { fg = c.dark_cyan },
-  ["@variable"] = { fg = c.gray77 },
+  ["@variable"] = { fg = c.gray53 },
   ["@variable.builtin"] = { fg = c.red },
 
   DiagnosticError = { fg = c.error },
