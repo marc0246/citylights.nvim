@@ -143,6 +143,16 @@ local highlights = {
   ["@variable"] = { fg = c.gray77 },
   ["@variable.builtin"] = { fg = c.red },
 
+  DiagnosticError = { fg = c.error },
+  DiagnosticHint = { fg = c.dim_blue },
+  DiagnosticInfo = { fg = c.gray77 },
+  DiagnosticWarn = { fg = c.warn },
+
+  DiagnosticUnderlineError = { sp = c.error, undercurl = true },
+  DiagnosticUnderlineHint = { sp = c.dim_blue, undercurl = true },
+  DiagnosticUnderlineInfo = { sp = c.gray77, undercurl = true },
+  DiagnosticUnderlineWarn = { sp = c.warn, undercurl = true },
+
   GitSignsAdd = { fg = c.green },
   GitSignsChange = { fg = c.dim_blue },
   GitSignsDelete = { fg = c.red },
