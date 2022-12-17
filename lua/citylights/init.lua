@@ -149,6 +149,31 @@ local highlights = {
 
   IndentBlanklineChar = { fg = c.gray20 },
   IndentBlanklineContextChar = { fg = c.gray26 },
+
+  NvimTreeCursorLine = { bg = c.gray17 },
+  NvimTreeEmptyFolderName = { fg = c.gray53 },
+  NvimTreeExecFile = { fg = c.gray53 },
+  NvimTreeFileIcon = { fg = c.gray77 },
+  NvimTreeFolderIcon = { fg = c.gray77 },
+  NvimTreeFolderName = { fg = c.gray53 },
+  NvimTreeGitDeleted = { fg = c.red },
+  NvimTreeGitDirty = { fg = c.yellow },
+  NvimTreeGitIgnored = { fg = c.gray32 },
+  NvimTreeGitMerge = { fg = c.yellow },
+  NvimTreeGitNew = { fg = c.green },
+  NvimTreeImageFile = { fg = c.gray53 },
+  NvimTreeIndentMarker = { fg = c.gray17 },
+  NvimTreeLspDiagnosticsError = { fg = c.error },
+  NvimTreeLspDiagnosticsHint = { fg = c.dim_blue },
+  NvimTreeLspDiagnosticsInformation = { fg = c.gray77 },
+  NvimTreeLspDiagnosticsWarning = { fg = c.warn },
+  NvimTreeNormal = { fg = c.gray53, bg = c.gray11 },
+  NvimTreeOpenedFile = { fg = c.gray77 },
+  NvimTreeOpenedFolderName = { fg = c.gray53 },
+  NvimTreeRootFolder = { fg = c.gray53 },
+  NvimTreeSpecialFile = { fg = c.gray53 },
+  NvimTreeSymlink = { fg = c.gray53 },
+  NvimTreeWinSeparator = { fg = c.gray11, bg = c.gray11 },
 }
 
 if vim.g.colors_name then
