@@ -159,6 +159,12 @@ local highlights = {
   GitSignsChange = { fg = c.violet },
   GitSignsDelete = { fg = c.red },
 
+  illuminatedCurWord = { bg = c.gray20 },
+  illuminatedWord = { bg = c.gray20 },
+  illuminatedWordRead = { bg = c.gray20 },
+  illuminatedWordText = { bg = c.gray20 },
+  illuminatedWordWrite = { bg = c.gray20 },
+
   IndentBlanklineChar = { fg = c.gray20 },
   IndentBlanklineContextChar = { fg = c.gray26 },
 
