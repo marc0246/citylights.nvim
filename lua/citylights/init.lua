@@ -118,7 +118,7 @@ local highlights = {
   ["@punctuation"] = { fg = c.gray53 },
   ["@punctuation.bracket"] = { fg = c.gray53 },
   ["@punctuation.delimiter"] = { fg = c.blue },
-  ["@punctuation.special"] = { fg = c.blue },
+  ["@punctuation.special"] = { fg = c.gray53 },
   ["@repeat"] = { fg = c.blue },
   ["@storageclass"] = { fg = c.dark_cyan },
   ["@storageclass.lifetime"] = { fg = c.cyan },
