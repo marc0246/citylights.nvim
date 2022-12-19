@@ -192,6 +192,10 @@ if vim.g.colors_name then
 end
 vim.g.colors_name = "citylights"
 
+if vim.fn.exists "syntax_on" then
+  vim.api.nvim_command "syntax reset"
+end
+
 vim.o.background = "dark"
 vim.o.termguicolors = true
 
