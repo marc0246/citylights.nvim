@@ -153,7 +153,7 @@ local highlights = {
   ["@lsp.type.formatSpecifier"] = { link = "@punctuation.special" },
   ["@lsp.type.function"] = { link = "@function" },
   ["@lsp.type.interface"] = { link = "@type" },
-  ["@lsp.type.keyword"] = { link = "@keyword" },
+  ["@lsp.type.keyword"] = {},
   ["@lsp.type.method"] = { link = "@method" },
   ["@lsp.type.namespace"] = { link = "@namespace" },
   ["@lsp.type.operator"] = { link = "@operator" },
