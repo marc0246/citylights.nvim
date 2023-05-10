@@ -145,6 +145,7 @@ local highlights = {
   ["@variable"] = { fg = c.gray53 },
   ["@variable.builtin"] = { fg = c.red },
 
+  ["@lsp.type.builtinType"] = { link = "@type" },
   ["@lsp.type.class"] = { link = "@type" },
   ["@lsp.type.comment"] = { link = "@comment" },
   ["@lsp.type.enum"] = { link = "@type" },
@@ -164,6 +165,8 @@ local highlights = {
   ["@lsp.type.type"] = { link = "@type" },
   ["@lsp.type.typeParameter"] = { link = "@type" },
   ["@lsp.type.variable"] = {},
+  ["@lsp.typemod.generic.injected"] = { link = "@punctuation" },
+  ["@lsp.typemod.keyword.injected"] = { link = "@keyword" },
 
   DiagnosticError = { fg = c.error },
   DiagnosticHint = { fg = c.hint },
