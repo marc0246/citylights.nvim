@@ -155,6 +155,7 @@ local highlights = {
   ["@lsp.type.function"] = { link = "@function" },
   ["@lsp.type.interface"] = { link = "@type" },
   ["@lsp.type.keyword"] = {},
+  ["@lsp.type.macro"] = {},
   ["@lsp.type.method"] = { link = "@method" },
   ["@lsp.type.namespace"] = { link = "@namespace" },
   ["@lsp.type.number"] = { link = "@number" },
