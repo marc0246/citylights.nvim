@@ -147,7 +147,7 @@ local highlights = {
 
   ["@lsp.type.builtinType"] = { link = "@type" },
   ["@lsp.type.class"] = { link = "@type" },
-  ["@lsp.type.comment"] = { link = "@comment" },
+  ["@lsp.type.comment"] = {},
   ["@lsp.type.enum"] = { link = "@type" },
   ["@lsp.type.enumMember"] = { link = "@type" },
   ["@lsp.type.escapeSequence"] = { link = "@string.escape" },
