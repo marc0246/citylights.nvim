@@ -139,6 +139,7 @@ local highlights = {
   ["@text.todo"] = { fg = c.yellow },
   ["@text.underline"] = { underline = true },
   ["@text.uri"] = { underline = true },
+  ["@text.warning"] = { fg = c.yellow },
   ["@type"] = { fg = c.cyan },
   ["@type.definition"] = { fg = c.cyan },
   ["@type.qualifier"] = { fg = c.dark_cyan },
